@@ -6,7 +6,7 @@ These are my dotfiles (i will build them up slowly)
 
 bspwm  
 sxhkd  
-picom (https://github.com/ibhagwan/picom)
+picom (https://github.com/ibhagwan/picom)  
 neovim  
 packer (neovim plugin manager)  
 xinit  
