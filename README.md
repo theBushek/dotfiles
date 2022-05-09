@@ -10,7 +10,7 @@ picom (https://github.com/ibhagwan/picom)
 neovim  
 packer (neovim plugin manager)  
 xinit  
-eww
+eww  
 neofetch  
 
 *everything exept neovim will be added soon
