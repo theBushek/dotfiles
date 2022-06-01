@@ -4,7 +4,7 @@ These are my dotfiles (i will build them up slowly)
   
 # programs
 
-bspwm  
+berry  
 sxhkd  
 picom (https://github.com/ibhagwan/picom)  
 neovim  
