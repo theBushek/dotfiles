@@ -8,10 +8,10 @@ return require('packer').startup(function()
   	use 'preservim/nerdtree'
   	use 'mhartington/oceanic-next'
   	use 'mhinz/vim-startify'
-  	use {
-		'nvim-telescope/telescope.nvim',
-		requires = { {'nvim-lua/plenary.nvim'} }
-	}
+  	--use {
+	--	'nvim-telescope/telescope.nvim',
+	--	requires = { {'nvim-lua/plenary.nvim'} }
+	--}
   	use 'yamatsum/nvim-cursorline'
   	use 'jbyuki/instant.nvim'
   	use {
@@ -20,7 +20,14 @@ return require('packer').startup(function()
   	}
 	use 'ms-jpq/coq_nvim'
 	use 'yamatsum/nonicons'
-	use 'nvim-treesitter/nvim-treesitter'
+	--use 'nvim-treesitter/nvim-treesitter'
 	use 'sharkdp/fd'
 	use 'BurntSushi/ripgrep'
+	use {
+  		'romgrk/barbar.nvim',
+  		requires = {'kyazdani42/nvim-web-devicons'}
+	}
+	--use 'neoclide/coc.nvim'
+	use 'elkowar/yuck.vim'
+	--use 'shaunlebron/parinfer'
 end)

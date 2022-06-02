@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\lukag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
   coq_nvim = {
     loaded = true,
     path = "C:\\Users\\lukag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coq_nvim",
@@ -148,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\lukag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-startify",
     url = "https://github.com/mhinz/vim-startify"
+  },
+  ["yuck.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\lukag\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\yuck.vim",
+    url = "https://github.com/elkowar/yuck.vim"
   }
 }
 
